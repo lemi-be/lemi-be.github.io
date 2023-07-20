@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemi Bekele - Portfolio</title>
+  <style>
+    body {
+		background-color: rgb(233, 239, 240);
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+	.title{
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+	nav a:hover{
+		color: rgb(230, 230, 230);
+		text-decoration: underline;
+		text-decoration-thickness: 5px;
+	}
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+	  
+    }
+    h1 {
+      margin-top: 0;
+	  margin-bottom: 0px;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .project_one {
+      width: 45%;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+	  background-color: rgba(93, 124, 130, 0.2);
+	  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+    }
+	.project_two {
+      width: 45%;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+	  background-color: rgba(93, 124, 130, 0.2);
+	  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+    }
+	.githublink{
+		color: rgb(11, 84, 135);
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.githublink:hover{
+		opacity: 0.8;
+	}
+	.aboutme{
+		font-size: 16px;
+	}
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+	
+	.photo{
+		max-height: 100px;
+		max-width:100px;
+		border-radius: 100%;
+		border: 2px solid #ebebeb;	
+	}
+	.contact_box{
+		width: 265px;
+		border: 1px solid #ddd;
+		padding: 1rem;
+		border-radius: 5px;
+		background-color: rgba(93, 124, 130, 0.2);
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+		 
+	}
+	.fa {
+		padding-left: 20px;
+		padding-right:20px;
+		width: 40px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+}
+
+	.fa-google{
+		color: #3369e8;
+		tranisition: 15s;
+	}
+	.fa-google:hover{
+		color: #d50f25;
+	}
+	.fa-instagram{
+		color: #833AB4;
+		tranisition: 15s;
+	}
+	.fa-instagram:hover{
+		color: #F77737;
+	}
+	.fa-telegram{
+		color: #0088cc;
+		tranisition: 15s;
+	}
+	.fa-telegram:hover{
+		opacity: 0.7;
+	}
+  </style>
+</head>
+<body>
+  <header>
+	<img src="photo.jpg" alt="plofile pic" class="photo">
+	<h1>Lemi Bekele</h1>
+    <p class="title"> Software Engineer </p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+	<a href="#">Resume</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="aboutme">
+       Hey there! I'm a 20-year-old computer science enthusiast from Addis Ababa, 
+	   currently pursuing my Bachelor's degree at Microlink Information Technology College.
+	   When it comes to skills, I'm good at HTML, CSS, and C++, and I've got the problem-solving skills to match. 
+	   But here's the kicker – I don't settle for mediocrity; 
+	   I'm constantly leveling up and fine-tuning my talents. 
+	   Passionate about all things computers, 
+	   I'm ready to make my mark and embrace every opportunity to grow. 
+	   Watch out world, I'm on a mission to code, conquer, and create a brighter digital future!
+      </p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+		<li>C++</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project_one">
+          <h3>Project 1</h3>
+          <p>
+		  <li>Devloped using C++</li>
+			<li>See it on <a href="https://github.com/lemi-be/GPA_Calculator.git" alt="github link" class="githublink">  GitHub </a> </li>
+			<li>It's a GPA Calculator console app to help students calculate their GPA easily.</li>
+		  </p>
+        </div>
+        <div class="project_two">
+          <h3>Project 2 - LMS - Library Mangment System</h3>
+          <p>
+			<li>Developed using C++.</li>
+			<li>See it on <a href="https://github.com/lemi-be/LMS.git alt="github link" class="githublink" >  GitHub </a> </li>
+			<li>It's a Library mangment system I devloped for our school profect </li>
+		  </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+	  <h2>Contact</h2>
+	  <div class="contact_box" >
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<a href="https://t.me/lemi_be" class="fa fa-telegram" alt="telegram"> </a>
+		<a href="https://instagram.com/lemi.ofii" class="fa fa-instagram" alt="instagram"> </a>
+		<a href="mailto:lemibekele365@gmail" class="fa fa-google" alt="mail"> </a>
+		</div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2023 Lemi Bekele. All rights reserved.</p>
+  </footer>
+</body>
+</html>
